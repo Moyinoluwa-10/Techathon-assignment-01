@@ -1,0 +1,58 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 50px;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;   
+    font-family: 'Raleway', sans-serif; 
+}
+
+
+@media screen and (min-width:500px) and (max-width:700px) {
+
+    header {
+        padding: 0 30px;
+    }
+
+    header nav ul {
+        gap: 30px;
+    }
+
+    header #logo {
+        width: 140px;
+    }
+ 
+}
+
+@media screen and (max-width:500px) {
+   
+    header {
+        padding: 0 15px;
+    }
+
+    header #logo {
+        width: 100px;
+    }
+
+    header nav ul {
+       gap: 15px;
+    }
+    
+    header nav a {
+        font-size: 14px;
+    }
+
+}
