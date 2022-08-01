@@ -22,7 +22,7 @@ const Hero1 = () => {
     
                 <form>
 
-                    <div> 
+                    <div className="box1"> 
                         <input type="email" name="email" placeholder="Enter your email..." id="email" />
                         <div>
                             <small>Please check your email</small>
