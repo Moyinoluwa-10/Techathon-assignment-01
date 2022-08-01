@@ -23,6 +23,10 @@
 }
 
 #section1 form {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -webkit-box;
     display: flex;
     gap: 15px;
 }

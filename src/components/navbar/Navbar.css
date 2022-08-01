@@ -9,6 +9,10 @@ header {
 
 header nav ul{
     list-style-type: none;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -webkit-box;
     display: flex;
     gap: 40px;
     align-items: center;
