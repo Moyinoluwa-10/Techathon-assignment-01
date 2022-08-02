@@ -14,7 +14,6 @@ header nav ul{
     display: -moz-box;
     display: -webkit-box;
     display: flex;
-    row-gap: 15px;
     gap: 40px;
     align-items: center;
 }
@@ -33,7 +32,9 @@ header nav a {
     }
 
     header nav ul {
-        gap: 30px;
+        width: 220px;
+        justify-content: space-between;
+        gap: unset;
     }
 
     header #logo {
@@ -53,7 +54,9 @@ header nav a {
     }
 
     header nav ul {
-       gap: 15px;
+        width: 165px;
+        justify-content: space-between;
+        gap: unset;
     }
     
     header nav a {

@@ -243,7 +243,7 @@ hr {
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (min-width: 370px) and (max-width:500px) {
     /* Styling Empty Background */
     #empty {
         background-image: url(../../images/bg-curve-mobile.svg);
@@ -293,6 +293,76 @@ hr {
         padding: 25px;
         margin: 0 auto;
         margin-top: 50px;
+    }
+   
+    #section2 .image {
+        order: -1;
+    }
+
+}
+
+
+@media screen and (max-width:370px) {
+    /* Styling Empty Background */
+    #empty {
+        background-image: url(../../images/bg-curve-mobile.svg);
+        height: 75px;
+        background-size: cover;
+    }
+
+    /* Styling Section Two */
+    #section2 {
+        flex-direction: column;
+        padding: 50px 25px 100px 25px;
+    }
+
+    /* Styling Section Two Text */
+    #section2 .headings {
+        max-width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 17px;
+        line-height: 28px;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    #section2 .wordings {
+        max-width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        color: var(--Desaturated-Blue);
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #section2 .wordings br {
+        display: none;
+    }
+
+    #section2 .works {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    hr {
+        width: 170px;
+        margin: 0 auto;
+        margin-top: -11px;
+    }
+
+    /* Styling Section Two Box */
+    #section2 .box {
+        width: 300px;
+        max-width: 100%;
+        padding: 25px 15px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    #section2 #box-wordings {
+        font-size: 13px;
+        line-height: 21px;
     }
    
     #section2 .image {
