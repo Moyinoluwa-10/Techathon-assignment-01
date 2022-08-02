@@ -19,7 +19,6 @@
     margin-top: -5px;
 }
 
-/* Styling Section Two Text */
 #section2 .headings {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -134,7 +133,6 @@ hr {
         flex-direction: column;
     }
 
-    /* Styling Section Two Text */
     #section2 .headings {
         font-size: 35px;
         line-height: 40px;
@@ -257,7 +255,6 @@ hr {
         padding: 50px 25px 100px 25px;
     }
 
-    /* Styling Section Two Text */
     #section2 .headings {
         font-size: 18px;
         line-height: 28px;
@@ -286,7 +283,6 @@ hr {
         margin-top: -11px;
     }
 
-    /* Styling Section Two Box */
     #section2 .box {
         width: 320px;
         max-width: 100%;
@@ -316,7 +312,6 @@ hr {
         padding: 50px 25px 100px 25px;
     }
 
-    /* Styling Section Two Text */
     #section2 .headings {
         max-width: 300px;
         margin-right: auto;
@@ -351,7 +346,6 @@ hr {
         margin-top: -11px;
     }
 
-    /* Styling Section Two Box */
     #section2 .box {
         width: 300px;
         max-width: 100%;

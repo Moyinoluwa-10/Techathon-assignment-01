@@ -112,8 +112,12 @@ footer .attribution a {
     }
 
     footer #icons {
-        justify-content: center;
+        width: 146px;
+        justify-content: space-between;
         margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;
     }
 
     footer p {
