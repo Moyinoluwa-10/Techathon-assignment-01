@@ -56,7 +56,7 @@ header nav a {
     header nav ul {
         width: 165px;
         justify-content: space-between;
-        gap: 15px;
+        gap: 14px;
     }
     
     header nav a {
